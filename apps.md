@@ -1,6 +1,6 @@
 # For issues related to applications that are not games.
 
-## Discord - issues with screen capture
+## Discord - issues with screen capture in general
 - **Cause:** the Discord port for Linux is a bit haphazardly maintained. There's a history of bugs that go away only to come back again.
 - **Fix:** try Vesktop (from [Flathub](https://flathub.org/apps/dev.vencord.Vesktop)).
 
