@@ -1,7 +1,7 @@
 # Issues related to Nvidia drivers
 
 ## Installation
-- Nvidia driver installation varies a lot for each family of distros. There is however, a common factor: *do not use the installer downloaded from the website*. It replaces libraries from your system by ones shipped by Nvidia that shouldn't be replaced at all, and the drivers in your distros' repositories are the ones properly tailored to work with your operating system.
+Nvidia driver installation varies a lot for each family of distros. There is however, a common factor: *do not use the installer downloaded from the website*. It replaces libraries from your system by ones shipped by Nvidia that shouldn't be replaced at all, and the drivers in your distros' repositories are the ones properly tailored to work with your operating system.
 - **Fedora and spins:** you can find the proper package for you card in the [RPMFusion](https://rpmfusion.org/Howto/NVIDIA) repositories. Remember to enable them by enabling third party repositories during installation.
 - **Mint/Zorin/Ubuntu and flavours:** run "Additional Drivers" from your applications menu.
 - **Arch and Arch-based:** you can find the proper package for your card at [Arch Wiki](https://wiki.archlinux.org/title/NVIDIA).
