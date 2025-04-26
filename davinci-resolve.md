@@ -1,6 +1,6 @@
 # For issues related to the video editing software DaVinci Resolve on Linux.
 ## Hardware compatibility
-While BMD advises to stick to Nvidia GPUs, truth is Resolve works just fine with AMD too. Stay away from Intel for now though, their new graphics cards on Resolve are prone to bugs even on Windows.
+While BMD advises to stick to Nvidia GPUs, truth is Resolve works just fine with AMD too as long as you have realistic expectations about render times (it's not CUDA, after all). Stay away from Intel for now though, their new graphics cards on Resolve are prone to bugs even on Windows.
 ## For Debian-based systems
 It is strongly advised to use the [MakeResolveDeb](https://www.danieltufvesson.com/makeresolvedeb) that will convert the installer into a .deb package for ease of installation and management.
 ## For Arch-based systems
