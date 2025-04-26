@@ -1,5 +1,5 @@
 # Linux Troubleshooting
-A compendium of information regarding common issues on Linux OS'es and how to fix them. Feel free to contribute by forking and sending a pull request after adding your entries in the fitting category files.
+A compendium of information regarding common issues on Linux OS'es and how to fix them. Feel free to contribute by forking and sending a pull request after adding your entries in the fitting category files, following the template I've set for simplicity sake.
 
 # Categories
 ### *[games.md](https://github.com/psygreg/linux-troubleshooting/blob/main/games.md)*
