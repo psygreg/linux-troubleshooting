@@ -6,3 +6,4 @@ A compendium of information regarding common issues on Linux OS'es and how to fi
 ### *[nvidia.md](https://github.com/psygreg/linux-troubleshooting/blob/main/nvidia.md)*
 ### *[davinci-resolve.md](https://github.com/psygreg/linux-troubleshooting/blob/main/davinci-resolve.md)*
 ### *[other.md](https://github.com/psygreg/linux-troubleshooting/blob/main/other.md)*
+### *[waydroid.md](https://github.com/psygreg/linux-troubleshooting/blob/main/waydroid.md)*
