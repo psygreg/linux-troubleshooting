@@ -1,6 +1,6 @@
 # For issues related to devices and peripherals.
 
-##For Wacom tablets
+## For Wacom tablets
 Check [The Linux Wacom Project](https://linuxwacom.github.io/) for drivers if your tablet doesn't work out of the box.
 
 ## Logitech Bolt mouse and keyboard preventing the system from sleeping
