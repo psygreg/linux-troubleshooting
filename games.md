@@ -11,7 +11,7 @@
 
 ## Marvel Rivals no longer launching
 - **Cause:** the anticheat needs a flag to run on userspace mode.
-- **Fix:** add `SteamDeck=1` to the games' launch options on Steam.
+- **Fix:** add `SteamDeck=1` to the game's launch options on Steam.
 
 ## Genshin Impact fails to launch or only launches with the internet connection turned off, becomes unresponsive if it's window goes out of focus, and crashes out when closed.
 - **Cause**: some changes in the starting of the game in 5.4 seem to be causing the problem.
