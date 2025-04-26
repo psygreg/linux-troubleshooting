@@ -14,7 +14,7 @@ Ideally, make sure you record or transcode your videos as:
 - DNxHD
 - DNxHR
 - .mp4 H264/265 with PCM, FLAC or Opus audio
-- .mkv H264/265 with PCM or FLAC audio\
+- .mkv H264/265 with PCM or FLAC audio
 
 For delivery, use DNxHR, then transcode to standard media formats for your work with HandBrake.
 ## Doesn't launch
