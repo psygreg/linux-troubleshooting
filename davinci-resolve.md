@@ -15,6 +15,7 @@ Ideally, make sure you record or transcode your videos as:
 - DNxHR
 - .mp4 H264/265 with PCM, FLAC or Opus audio
 - .mkv H264/265 with PCM or FLAC audio\
+
 For delivery, use DNxHR, then transcode to standard media formats for your work with HandBrake.
 ## Doesn't launch
 - **Cause:** it wants to use certain libraries that have known conflicts with current versions of the system, since it's only tested on a no longer supported version of Rocky Linux, running very outdated versions of such libraries.
