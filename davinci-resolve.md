@@ -9,12 +9,13 @@ I currently maintain CachyOS's `davinci-resolve` package, so I don't mind sharin
 I created a script to automate the installation process that you can find [here](https://github.com/psygreg/resolve-suse).
 ## About DaVinciBox
 It is a clever method to run Resolve on Linux, but has some pitfalls, like not being able to just drag and drop files seamlessly into the bins and not working at all with the Studio version if you have the dongle instead of a digital license key. These problems can't be fixed, so unless you're running an atomic distro, stay away from it.
-## Video file formats and encoding for Linux
+## Video file formats for encoding and deliver for Linux
 Ideally, make sure you record or transcode your videos as:
 - DNxHD
 - DNxHR
 - .mp4 H264/265 with PCM, FLAC or Opus audio
 - .mkv H264/265 with PCM or FLAC audio
+For delivery, use DNxHR, then transcode to standard media formats for your work with HandBrake.
 ## Doesn't launch
 - **Cause:** it wants to use certain libraries that have known conflicts with current versions of the system, since it's only tested on a no longer supported version of Rocky Linux, running very outdated versions of such libraries.
 - **Fix**: run the following commands, in order\
