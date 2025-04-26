@@ -1,4 +1,8 @@
 # For issues related to the video editing software DaVinci Resolve on Linux.
+## For Debian-based systems
+- It is strongly advised to use the [MakeResolveDeb](https://www.danieltufvesson.com/makeresolvedeb) that will convert the installer into a .deb package for ease of installation and management.
+## For Arch-based systems
+- I currently maintain CachyOS's `davinci-resolve` package, so I don't mind sharing the PKGBUILDs for both free and Studio versions. You can find them [here](https://github.com/psygreg/linux-troubleshooting/tree/main/resolve-arch). 
 ## Doesn't launch
 - **Cause:** it wants to use certain libraries that have known conflicts with current versions of the system, since it's only tested on a no longer supported version of Rocky Linux, running very outdated versions of such libraries.
 - **Fix**: run the following commands, in order\
