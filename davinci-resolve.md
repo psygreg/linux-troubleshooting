@@ -10,7 +10,7 @@ I created a script to automate the installation process that you can find [here]
 ## About DaVinciBox
 It is a clever method to run Resolve on Linux, but has some pitfalls, like not being able to just drag and drop files seamlessly into the bins and not working at all with the Studio version if you have the dongle instead of a digital license key. These problems can't be fixed, so unless you're running an atomic distro, stay away from it.
 ## Video file formats and encoding for Linux
-Ideally, make sure you record or transcode your videos in *DNxHD*; *DNxHR*; *.mp4 H264/265* with *Opus or PCM audio*; or *.mkv H264/265* with *PCM audio*.
+Ideally, make sure you record or transcode your videos in *DNxHD*; *DNxHR*; *.mp4 H264/265* or *.mkv H264/265* with *PCM* or *Opus* (except *.mkv*) audio. In my experience, those will work properly.
 ## Doesn't launch
 - **Cause:** it wants to use certain libraries that have known conflicts with current versions of the system, since it's only tested on a no longer supported version of Rocky Linux, running very outdated versions of such libraries.
 - **Fix**: run the following commands, in order\
