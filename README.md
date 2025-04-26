@@ -3,6 +3,7 @@ A compendium of information regarding common issues on Linux OS'es and how to fi
 
 # Categories
 ### *[apps.md](https://github.com/psygreg/linux-troubleshooting/blob/main/apps.md)*
+### *[devices.md](https://github.com/psygreg/linux-troubleshooting/blob/main/devices.md)*
 ### *[games.md](https://github.com/psygreg/linux-troubleshooting/blob/main/games.md)*
 ### *[nvidia.md](https://github.com/psygreg/linux-troubleshooting/blob/main/nvidia.md)*
 ### *[davinci-resolve.md](https://github.com/psygreg/linux-troubleshooting/blob/main/davinci-resolve.md)*
