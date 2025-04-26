@@ -1,2 +1,6 @@
-# linux-troubleshooting
-A compendium of information regarding common issues on Linux OS'es and how to fix them.
+# Linux Troubleshooting
+A compendium of information regarding common issues on Linux OS'es and how to fix them. Feel free to contribute by forking and sending a pull request after adding your entries in the fitting category files.
+
+# Categories
+### Games: *games.md*
+### Nvidia: *nvidia.md*
