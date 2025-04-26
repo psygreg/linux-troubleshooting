@@ -1,7 +1,8 @@
 # For issues related to applications that are not games.
 
 ## VSCode/VSCodium
-Microsoft Visual Studio Code can be problematic to run in some distros. I recommend running [VSCodium](https://flathub.org/apps/com.vscodium.codium) with a patch to add the marketplace from Microsoft's VSCode to it.\
+Microsoft Visual Studio Code can be problematic to run in some distros. I recommend running [VSCodium](https://flathub.org/apps/com.vscodium.codium) with a patch to add the marketplace from Microsoft's VSCode to it.
+
 To do so, you may use [Flatseal](https://flathub.org/apps/com.github.tchx84.Flatseal) to add the following environment variables:
 `VSCODE_GALLERY_ITEM_URL=https://marketplace.visualstudio.com/items`\
 `VSCODE_GALLERY_SERVICE_URL=https://marketplace.visualstudio.com/_apis/public/gallery`
