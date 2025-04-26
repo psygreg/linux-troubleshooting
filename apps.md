@@ -15,3 +15,5 @@ To do so, you may use [Flatseal](https://flathub.org/apps/com.github.tchx84.Flat
 - **Cause:** it seems to be related to some latency control issues on PulseAudio.
 - **Fix:** use the microphone device directly from ALSA, with the application installed from your OS' repos, not Flathub or Snap Store.
 
+## Unity Hub (for game development)
+While you may be able to find workarounds for other distros, it only officially supports Debian/Ubuntu and Fedora/RHEL. I strongly advise sticking to those if you need it. 
