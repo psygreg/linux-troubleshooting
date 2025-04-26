@@ -1,6 +1,9 @@
 # Issues while gaming on Linux and how to fix them.
 ### Ctrl+F through this to find your specific game if you need.
 
+## For 8BitDo and similar controllers
+- Always use XInput mode to engage the Xbox contoller drivers made by the community. It comes out of the box in most distros, but in case it doesn't take a look at [xpadneo](https://github.com/atar-axis/xpadneo).
+
 ## Any game can't display cutscenes properly - either throwing a black or 'TV calibration'-esque screen.
 - **Cause**: the official versions of Proton released by Valve can't play MPEG-encoded video for royalties and licensing problems.
 - **Fix**: use GE-Proton for such games instead. You may add it to Steam, Lutris and Heroic using *ProtonPlus* or *ProtonUpQt*, both available on [Flathub](https://flathub.org/).
