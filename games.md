@@ -2,7 +2,10 @@
 ### Ctrl+F through this to find your specific game if you need.
 
 ## For 8BitDo and similar controllers
-- Always use XInput mode to engage the Xbox contoller drivers made by the community. It comes out of the box in most distros, but in case it doesn't take a look at [xpadneo](https://github.com/atar-axis/xpadneo).
+Always use XInput mode to engage the Xbox contoller drivers made by the community. It comes out of the box in most distros, but in case it doesn't take a look at [xpadneo](https://github.com/atar-axis/xpadneo).
+
+## For DualShock 4 and DualSense controllers
+Those controllers are supported by drivers included on the Linux kernel by Sony themselves. Disable Steam Input on first-party Sony titles for those to work on them.
 
 ## Any game can't display cutscenes properly - either throwing a black or 'TV calibration'-esque screen.
 - **Cause**: the official versions of Proton released by Valve can't play MPEG-encoded video for royalties and licensing problems.
