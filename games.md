@@ -11,6 +11,10 @@ Those controllers are supported by drivers included on the Linux kernel by Sony 
 - **Cause**: the official versions of Proton released by Valve can't play MPEG-encoded video for royalties and licensing problems.
 - **Fix**: use GE-Proton for such games instead. You may add it to Steam, Lutris and Heroic using *ProtonPlus* or *ProtonUpQt*, both available on [Flathub](https://flathub.org/).
 
+## Long loading times and stutters
+- **Cause**: the shader cache default size is too small for some recently released titles, causing it to be constantly rewritten.
+- **Fix**: I made a [bash script](https://github.com/psygreg/shader-patcherx) to automate it safely. 
+
 ## unarc.dll error
 - **Cause**: some compression extraction methods can't operate properly if the CPU clock cycles aren't a round number to the base frequency of the FSB. It happens on Windows as well.
 - **Fix**: find another alternative for that file.
