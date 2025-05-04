@@ -7,3 +7,7 @@ Ideally, avoid using NTFS filesystems on Linux systems.
 ## "program" not responding dialogue box spam on Gnome desktops
 - **Cause**: Gnome has very little tolerance by default on programs' response times.
 - **Fix**: Run `gsettings set org.gnome.mutter check-alive-timeout 3000` on terminal to set that tolerance at 30 seconds instead of the default 5.
+
+## Long boot/shutdown times with no apparent reason
+- **Cause**: a partition might have been improperly deleted, meaning although it was deleted on the filesystem, its mounting point still remains recorded in the `/etc/fstab` file.
+- **Fix**: edit the `/etc/fstab` file to remove the broken entry.
