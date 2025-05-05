@@ -7,6 +7,10 @@ Always use XInput mode to engage the Xbox contoller drivers made by the communit
 ## For DualShock 4 and DualSense controllers
 Those controllers are supported by drivers included on the Linux kernel by Sony themselves. Disable Steam Input on first-party Sony titles for those to work on them.
 
+## Xbox controller losing connection to bluetooth
+- **Cause**: it seems to have very poor bluetooth connectivity, to the point putting the receiver too close or too far from it makes the signal drop.
+- **Fix**: place your receiver roughly 1~2 meters away from the controller, no more, no less.
+
 ## Any game can't display cutscenes properly - either throwing a black or 'TV calibration'-esque screen.
 - **Cause**: the official versions of Proton released by Valve can't play MPEG-encoded video for royalties and licensing problems.
 - **Fix**: use GE-Proton for such games instead. You may add it to Steam, Lutris and Heroic using *ProtonPlus* or *ProtonUpQt*, both available on [Flathub](https://flathub.org/).
