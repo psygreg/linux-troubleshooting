@@ -9,5 +9,9 @@ Ideally, avoid using NTFS filesystems on Linux systems.
 - **Fix**: Run `gsettings set org.gnome.mutter check-alive-timeout 3000` on terminal to set that tolerance at 30 seconds instead of the default 5.
 
 ## Long boot/shutdown times with no apparent reason
-- **Cause**: a partition might have been improperly deleted, meaning although it was deleted on the filesystem, its mounting point still remains recorded in the `/etc/fstab` file.
+- **Cause 1**: a partition might have been improperly deleted, meaning although it was deleted on the filesystem, its mounting point still remains recorded in the `/etc/fstab` file.
 - **Fix**: edit the `/etc/fstab` file to remove the broken entry.
+
+- **Cause 2**: certain defective proprietary USB WiFi adapter drivers. 
+- **Fix**: can't be fixed by software, only replacing the adapter with one more compatible with Linux or an Intel chipset WiFi card (which are known for working very well under Linux).
+
