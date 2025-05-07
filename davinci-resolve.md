@@ -27,6 +27,9 @@ For delivery, use DNxHR, then transcode to standard media formats for your work 
 `sudo mv libgmodule* disabled`\
 Then install `libqt5gui5` for your distribution. That package name applies to Ubuntu, but other known names for packages that include this library are `qt5-base` from the Arch repositories, and `libQt5Gui5` in some other systems.
 
+## To run Resolve on integrated graphics
+Make sure you install `mesa-opencl-icd` to enable OpenCL computing on your system.
+
 ## GPU out of memory error
 - **Cause:** Resolve will run on the default GPU on your system, which means, if you're running hybrid graphics, it will attempt to run on your iGPU.
 - **Fix:** add `prime-run` to the command in the .desktop shortcut file for Nvidia cards. Alternatively, in some systems, you can just right click the program in your applications menu and start it with discrete graphics, which also solves the problem. 
