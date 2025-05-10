@@ -11,6 +11,10 @@ Those controllers are supported by drivers included on the Linux kernel by Sony 
 - **Cause**: it seems to have very poor bluetooth connectivity, to the point putting the receiver too close or too far from it makes the signal drop.
 - **Fix**: place your receiver roughly 1~2 meters away from the controller, no more, no less.
 
+## Cannot run any games with a system running SELinux (Fedora, openSUSE, etc)
+- **Cause**: one of SELinux's policies is clashing with Wine.
+- **Fix**: Run `sudo setsebool -P selinuxuser_execmod 1` on terminal.
+
 ## Any game can't display cutscenes properly - either throwing a black or 'TV calibration'-esque screen.
 - **Cause**: the official versions of Proton released by Valve can't play MPEG-encoded video for royalties and licensing problems.
 - **Fix**: use GE-Proton for such games instead. You may add it to Steam, Lutris and Heroic using *ProtonPlus* or *ProtonUpQt*, both available on [Flathub](https://flathub.org/).
