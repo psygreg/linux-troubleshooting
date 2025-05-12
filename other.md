@@ -15,3 +15,6 @@ Ideally, avoid using NTFS filesystems on Linux systems.
 - **Cause 2**: certain defective proprietary USB WiFi adapter drivers. 
 - **Fix**: can't be fixed by software, only replacing the adapter with one more compatible with Linux or an Intel chipset WiFi card (which are known for working very well under Linux).
 
+## "Invalid magic number, need to load kernel first" error
+- **Cause**: something went wrong when creating the installation image.
+- **Fix**: use Rufus or Ventoy for installation images, or `dd` if you're familiar with it. If that doesn't solve the issue, try using another flash drive since the one you used might be unreliable. 
