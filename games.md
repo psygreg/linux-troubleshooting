@@ -11,6 +11,10 @@ Those controllers are supported by drivers included on the Linux kernel by Sony 
 - **Cause**: it seems to have very poor bluetooth connectivity, to the point putting the receiver too close or too far from it makes the signal drop.
 - **Fix**: place your receiver roughly 1~2 meters away from the controller, no more, no less.
 
+## Gamescope not working on Lutris (flatpak) after installation
+- **Cause**: Lutris doesn't work with the latest version of the gamescope flatpak runtime.
+- **Fix:** install version 23.08 of the gamescope flatpak runtime.
+
 ## Cannot run any games with a system running SELinux (Fedora, openSUSE, etc)
 - **Cause**: one of SELinux's policies is clashing with Wine.
 - **Fix**: Run `sudo setsebool -P selinuxuser_execmod 1` on terminal.
