@@ -8,6 +8,10 @@ Ideally, avoid using NTFS filesystems on Linux systems.
 - **Cause**: Gnome has very little tolerance by default on programs' response times.
 - **Fix**: Run `gsettings set org.gnome.mutter check-alive-timeout 30000` on terminal to set that tolerance at 30 seconds instead of the default 5.
 
+## Screen turns off when program takes over full screen on KDE Plasma desktops
+- **Cause**: some versions seem to have a bug on their Adaptive Sync.
+- **Fix**: disable Adaptive Sync in display settings.
+
 ## Long boot/shutdown times with no apparent reason
 - **Cause 1**: a partition might have been improperly deleted, meaning although it was deleted on the filesystem, its mounting point still remains recorded in the `/etc/fstab` file.
 - **Fix**: edit the `/etc/fstab` file to remove the broken entry.
